@@ -1,0 +1,20 @@
+title: "Shouting into the (void *)"
+author: James Royalty
+description: > 
+  I'm James Royalty.  I make things out of programs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jlroyalty
+github_username:  jroyalty
+google_analytics: "UA-32884199-1"
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
