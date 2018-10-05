@@ -4,6 +4,7 @@ description: >
   I'm James Royalty.  I make things out of programs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /posts/:title:output_ext
 twitter_username: jlroyalty
 github_username:  jroyalty
 google_analytics: "UA-32884199-1"
@@ -13,6 +14,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-gist
 exclude:
   - Gemfile
   - Gemfile.lock
