@@ -1,7 +1,7 @@
-title: "std::any ~ Anything, really"
+title: "std::any"
 author: James Royalty
 description: > 
-  I'm James Royalty.  I make things out of programs.
+  I'm James Royalty.  I make things.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /posts/:title:output_ext
