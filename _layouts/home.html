@@ -6,17 +6,20 @@ layout: default
 
   {{ content }}
 
-  <h1 class="page-heading">Posts</h1>
-  
+  <img src="/a/thug-bag.jpg" />
+
+{% comment %}
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+	  {{ post.quip }}
         </h4>
       </li>
     {% endfor %}
   </ul>
+{% endcomment %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
